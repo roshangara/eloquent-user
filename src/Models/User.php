@@ -48,4 +48,8 @@ class User extends Model
     protected $casts = [
         'is_active' => 'boolean',
     ];
+
+    protected $hidden = [
+        'password',
+    ];
 }
