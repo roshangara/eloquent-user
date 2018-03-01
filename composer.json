@@ -1,0 +1,45 @@
+{
+  "name": "roshangara/eloquent-user",
+  "description": "Eloquent User",
+  "homepage": "https://github.com/roshangara/eloquent-user",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "roshangara",
+    "eloquent-user"
+  ],
+  "support": {
+    "issues": "https://github.com/roshangara/eloquent-user/issues",
+    "source": "https://github.com/roshangara/eloquent-user"
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.0",
+    "illuminate/database": "^5.0",
+    "roshangara/eloquent-helper": "dev-master",
+    "roshangara/translatable": "dev-master",
+    "roshangara/activable": "dev-master",
+    "roshangara/statusable": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roshangara\\EloquentUser\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Roshangara\\EloquentUser\\EloquentUserServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Taghikhani",
+      "email": "mroshangara@gmail.com",
+      "homepage": "http://roshangara.ir"
+    }
+  ],
+  "minimum-stability": "dev"
+}
